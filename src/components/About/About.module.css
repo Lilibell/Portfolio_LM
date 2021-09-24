@@ -1,0 +1,30 @@
+.about {
+  min-height: 80vh;
+  width: 100%;
+  background-color: var(--color-primary-dark);
+  padding: 1.5rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.about__wrapper {
+  width: 100%;
+  max-width: 50rem;
+}
+
+.about__heading {
+  color: var(--color-primary-light);
+  font-size: var(--fs-l);
+  margin: 3rem 0;
+}
+
+.about__content {
+  color: var(--color-primary-light);
+  font-size: var(--fs-s);
+  margin-bottom: 1.5rem;
+}
+
+.about__highlight {
+  color: var(--color-secondary);
+}

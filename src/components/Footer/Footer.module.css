@@ -1,0 +1,32 @@
+footer {
+  width: 100%;
+  min-height: 10vh;
+  padding-bottom: 1.5rem;
+  background-color: var(--color-secondary-light);
+  color: var(--color-secondary-dark);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.footer__social {
+  margin-bottom: 1.5rem;
+  width: 100%;
+  max-width: 10rem;
+  display: flex;
+  justify-content: space-around;
+}
+
+.footer__social a {
+  color: inherit;
+  cursor: pointer;
+}
+
+.footer__icon {
+  font-size: var(--fs-l);
+}
+
+.footer__copyright {
+  font-size: var(--fs-s);
+}

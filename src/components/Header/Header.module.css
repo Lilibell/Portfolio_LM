@@ -1,0 +1,55 @@
+.header {
+  min-height: 90vh;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background: url("../../images/subtle-prism.svg");
+  background-size: cover;
+  /* background by SVGBackgrounds.com */
+}
+
+.header__wrapper {
+  width: calc(100% - 3rem);
+  max-width: 35rem;
+  margin: 12rem 0;
+  padding: 3rem 1.5rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: var(--bg-color-light);
+  border-radius: var(--border-radius);
+  -webkit-border-radius: var(--border-radius);
+  -moz-border-radius: var(--border-radius);
+  -ms-border-radius: var(--border-radius);
+  -o-border-radius: var(--border-radius);
+}
+
+.header__image-wrapper {
+  height: 15rem;
+  width: 15rem;
+}
+
+.header__image {
+  background-color: var(--color-primary-dark);
+  border-radius: 50%;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
+}
+
+.header__title {
+  font-size: var(--fs-l);
+  margin: 2rem;
+}
+
+.header__content {
+  font-size: var(--fs-s);
+}
+
+.header__highlight {
+  color: var(--color-secondary);
+}
