@@ -21,10 +21,10 @@ const Navbar = () => {
   const getNavListClasses = () => {
     if (isClicked === "") {
       return `${styles.nav__list}`
-    } else if (isClicked === true) {
-      return `${styles.nav__list} ${styles.nav__listOpen}`
     } else {
-      return `${styles.nav__list} ${styles.nav__listClosed}`
+      return `${styles.nav__list} ${
+        isClicked ? styles.nav__listOpen : styles.nav__listClosed
+      }`
     }
   }
 

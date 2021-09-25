@@ -1,5 +1,5 @@
 import React from "react"
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
+import Skill from "./Skill/Skill"
 import { faHtml5 } from "@fortawesome/free-brands-svg-icons"
 import { faCss3Alt } from "@fortawesome/free-brands-svg-icons"
 import { faSass } from "@fortawesome/free-brands-svg-icons"
@@ -17,71 +17,15 @@ const Skills = () => {
       <div className={styles.skills__wrapper}>
         <h2 className={styles.skills__heading}>Technologies I work with</h2>
         <div className={styles.skills__display}>
-          <div className={styles.skills__card}>
-            <FontAwesomeIcon
-              icon={faHtml5}
-              className={styles.skills__cardIcon}
-            />
-            <h3 className={styles.skills__subheading}>HTML5</h3>
-          </div>
-          <div className={styles.skills__card}>
-            <FontAwesomeIcon
-              icon={faCss3Alt}
-              className={styles.skills__cardIcon}
-            />
-            <h3 className={styles.skills__subheading}>CSS3</h3>
-          </div>
-          <div className={styles.skills__card}>
-            <FontAwesomeIcon
-              icon={faSass}
-              className={styles.skills__cardIcon}
-            />
-            <h3 className={styles.skills__subheading}>Sass</h3>
-          </div>
-          <div className={styles.skills__card}>
-            <FontAwesomeIcon
-              icon={faJsSquare}
-              className={styles.skills__cardIcon}
-            />
-            <h3 className={styles.skills__subheading}>JavaScript</h3>
-          </div>
-          <div className={styles.skills__card}>
-            <FontAwesomeIcon
-              icon={faReact}
-              className={styles.skills__cardIcon}
-            />
-            <h3 className={styles.skills__subheading}>React</h3>
-          </div>
-          <div className={styles.skills__card}>
-            <FontAwesomeIcon
-              icon={faNode}
-              className={styles.skills__cardIcon}
-            />
-            <h3 className={styles.skills__subheading}>Node</h3>
-          </div>
-          <div className={styles.skills__card}>
-            <FontAwesomeIcon
-              icon={faDatabase}
-              className={styles.skills__cardIcon}
-            />
-            <h3 className={styles.skills__subheading}>
-              MongoDB <br /> & MySQL
-            </h3>
-          </div>
-          <div className={styles.skills__card}>
-            <FontAwesomeIcon
-              icon={faGitSquare}
-              className={styles.skills__cardIcon}
-            />
-            <h3 className={styles.skills__subheading}>Git</h3>
-          </div>
-          <div className={styles.skills__card}>
-            <FontAwesomeIcon
-              icon={faGithub}
-              className={styles.skills__cardIcon}
-            />
-            <h3 className={styles.skills__subheading}>GitHub</h3>
-          </div>
+          <Skill icon={faHtml5} name="HTML5" />
+          <Skill icon={faCss3Alt} name="CSS3" />
+          <Skill icon={faSass} name="Sass" />
+          <Skill icon={faJsSquare} name="JavaScript" />
+          <Skill icon={faReact} name="React" />
+          <Skill icon={faNode} name="Node" />
+          <Skill icon={faDatabase} name="MongoDB & MySQL" />
+          <Skill icon={faGitSquare} name="Git" />
+          <Skill icon={faGithub} name="GitHub" />
         </div>
       </div>
     </section>

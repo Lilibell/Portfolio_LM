@@ -13,20 +13,17 @@ const About = () => {
           <span className={styles.about__highlight}>
             "Perl Programming for Biology"
           </span>
-          . It was my first encounter with a programming language and I
-          immediately fell in love. I fell in love not only with what I was able
-          to to with my code, but with the mere process of writing it. With
-          running into a ton of problems and overcoming them all. With trying to
-          make my code clean, fast and understandable, and with learning how
-          things work behind the scene.
+          . Perl was my first encounter with a programming language and I
+          immediately fell in love with writing code. Afterwards I took a course
+          on C++ and deepend my knowledge in Computer Science.
         </p>
         <p className={styles.about__content}>
-          A few years later, I sat at home with my six month old baby. While I
+          Some time later, I sat at home with my six month old baby. While I
           loved being her mother, I missed doing things I was passionate about.
           Soon I found myself enrolled in an online Web Development Bootcamp.
-          And after completing this first course I knew one thing for sure:{" "}
+          And after completing this first course I knew one thing for certain:{" "}
           <span className={styles.about__highlight}>
-            I want to be a Web Developer
+            I will be a Web Developer
           </span>
           .
         </p>

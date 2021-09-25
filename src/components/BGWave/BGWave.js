@@ -11,6 +11,8 @@ const BGWave = props => {
     case "secondary-light":
       waveClass = `${styles.pathLight}`
       break
+    default:
+      waveClass = ""
   }
 
   return (
