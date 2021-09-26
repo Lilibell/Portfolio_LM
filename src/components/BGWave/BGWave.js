@@ -8,8 +8,11 @@ const BGWave = props => {
     case "primary-dark":
       waveClass = `${styles.pathDark}`
       break
+    case "primary-light":
+      waveClass = `${styles.pathLightP}`
+      break
     case "secondary-light":
-      waveClass = `${styles.pathLight}`
+      waveClass = `${styles.pathLightS}`
       break
     default:
       waveClass = ""

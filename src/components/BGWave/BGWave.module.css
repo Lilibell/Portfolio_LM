@@ -1,11 +1,12 @@
 .wrapper {
   height: 150px;
+  width: 100%;
   overflow: hidden;
 }
 
 .svg {
   height: 100%;
-  width: 100vw;
+  width: 100%;
 }
 
 .path-dark {
@@ -13,7 +14,12 @@
   fill: var(--color-primary-dark);
 }
 
-.path-light {
+.path-light-p {
+  stroke: none;
+  fill: var(--color-primary-light);
+}
+
+.path-light-s {
   stroke: none;
   fill: var(--color-secondary-light);
 }

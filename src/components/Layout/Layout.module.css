@@ -1,17 +1,17 @@
 :root {
-  --color-primary: hsl(194, 71%, 40%);
-  --color-primary-light: hsl(195, 73%, 90%);
+  --color-primary: #1e8dae;
+  --color-primary-light: #d3eff8;
   --color-primary-dark: hsl(195, 73%, 10%);
-  --color-secondary: hsl(330, 37%, 52%);
-  --color-secondary-light: hsl(330, 37%, 70%);
+  --color-secondary: #b25785;
+  --color-secondary-light: #cf96b3;
   --color-secondary-dark: hsl(330, 37%, 30%);
-  --bg-color-light: hsla(195, 73%, 98%, 0.8);
+  --bg-color-light: #f6fcfecc;
 
   --fs-s: 1.6rem;
   --fs-m: 2.4rem;
   --fs-l: 3rem;
-  --fs-xl: 5rem;
-  --fs-xxl: 6rem;
+  --fs-xl: 4rem;
+  --fs-xxl: 5rem;
 
   --border-radius: 1.8rem;
 }

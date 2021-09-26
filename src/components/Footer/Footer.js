@@ -13,6 +13,7 @@ const Footer = () => {
         <a
           href="https://github.com/Lilibell"
           target="_blank"
+          rel="noreferrer"
           alt="Link to my GitHub page"
         >
           <FontAwesomeIcon icon={faGithub} className={styles.footer__icon} />
@@ -20,6 +21,7 @@ const Footer = () => {
         <a
           href="https://twitter.com/ellimeis"
           target="_blank"
+          rel="noreferrer"
           alt="Link to my Twitter page"
         >
           <FontAwesomeIcon icon={faTwitter} className={styles.footer__icon} />

@@ -1,5 +1,5 @@
 .skills {
-  min-height: 80vh;
+  min-height: 100vh;
   width: 100%;
   padding: 1.5rem;
   background: url("../../images/clouds-6343949.png") no-repeat center;
@@ -12,8 +12,8 @@
 
 .skills__wrapper {
   width: 100%;
-  max-width: 90rem;
-  margin-bottom: 3rem;
+  max-width: 100rem;
+  margin: 3rem 0 6rem 0;
 }
 
 .skills__heading {
@@ -29,30 +29,4 @@
   flex-wrap: wrap;
   justify-content: center;
   align-items: center;
-}
-
-.skills__card {
-  height: 16rem;
-  width: 16rem;
-  margin: 1.5rem;
-  background-color: var(--bg-color-light);
-  border-radius: var(--border-radius);
-  -webkit-border-radius: var(--border-radius);
-  -moz-border-radius: var(--border-radius);
-  -ms-border-radius: var(--border-radius);
-  -o-border-radius: var(--border-radius);
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-}
-
-.skills__card-icon {
-  color: var(--color-secondary);
-  font-size: var(--fs-xxl);
-}
-
-.skills__subheading {
-  margin-top: 0.5rem;
-  font-size: var(--fs-m);
 }

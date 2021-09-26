@@ -16,7 +16,7 @@
 
 .skills__card-icon {
   color: var(--color-secondary);
-  font-size: var(--fs-xxl);
+  font-size: 6rem;
 }
 
 .skills__subheading {

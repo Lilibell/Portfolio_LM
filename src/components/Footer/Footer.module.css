@@ -11,7 +11,6 @@ footer {
 }
 
 .footer__social {
-  margin-bottom: 1.5rem;
   width: 100%;
   max-width: 10rem;
   display: flex;
@@ -25,8 +24,22 @@ footer {
 
 .footer__icon {
   font-size: var(--fs-l);
+  transition: all 0.2s;
+  -webkit-transition: all 0.2s;
+  -moz-transition: all 0.2s;
+  -ms-transition: all 0.2s;
+  -o-transition: all 0.2s;
+}
+
+.footer__icon:hover {
+  transform: translateY(-0.2rem);
+  -webkit-transform: translateY(-0.2rem);
+  -moz-transform: translateY(-0.2rem);
+  -ms-transform: translateY(-0.2rem);
+  -o-transform: translateY(-0.2rem);
 }
 
 .footer__copyright {
   font-size: var(--fs-s);
+  margin: 1.5rem 0;
 }

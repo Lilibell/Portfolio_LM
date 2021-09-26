@@ -1,15 +1,17 @@
 .about {
-  min-height: 80vh;
+  min-height: 70vh;
   width: 100%;
   background-color: var(--color-primary-dark);
-  padding: 0 1.5rem 3rem 1.5rem;
+  padding-bottom: 3rem;
   display: flex;
   justify-content: center;
   align-items: center;
 }
 
 .about__wrapper {
-  width: 100%;
+  width: calc(100% - 3rem);
+  max-width: 60rem;
+  margin: 6rem auto;
   max-width: 50rem;
 }
 

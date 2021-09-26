@@ -1,0 +1,84 @@
+.contact__form {
+  width: 100%;
+  max-width: 60rem;
+  min-height: 40rem;
+  margin-top: 1.5rem;
+}
+
+.contact__form-group {
+  display: block;
+  padding-bottom: 2rem;
+}
+
+.contact__label {
+  font-size: var(--fs-s);
+}
+
+.contact__input {
+  width: 100%;
+  display: block;
+  margin-top: 0.5rem;
+  padding: 1rem 1.5rem;
+  border: 1px solid var(--color-primary-light);
+  font-size: var(--fs-s);
+  cursor: pointer;
+  background-color: var(--bg-color-light);
+  border-radius: var(--border-radius);
+  -webkit-border-radius: var(--border-radius);
+  -moz-border-radius: var(--border-radius);
+  -ms-border-radius: var(--border-radius);
+  -o-border-radius: var(--border-radius);
+}
+
+.contact__input:focus {
+  outline: none;
+  box-shadow: 0 0 0.7rem var(--color-primary);
+  border: 1px solid var(--color-primary);
+}
+
+.contact__button {
+  padding: 1rem 1.5rem;
+  font-size: 2rem;
+  background-color: var(--color-primary);
+  font-family: inherit;
+  color: var(--color-primary-light);
+  border: none;
+  margin-top: 1.5rem;
+  cursor: pointer;
+  transition: all 0.2s;
+  -webkit-transition: all 0.2s;
+  -moz-transition: all 0.2s;
+  -ms-transition: all 0.2s;
+  -o-transition: all 0.2s;
+  border-radius: var(--border-radius);
+  -webkit-border-radius: var(--border-radius);
+  -moz-border-radius: var(--border-radius);
+  -ms-border-radius: var(--border-radius);
+  -o-border-radius: var(--border-radius);
+}
+
+.contact__button-wrapper {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.contact__button:hover {
+  box-shadow: 0 0.4rem 0.6rem var(--color-primary-dark);
+  -webkit-transform: translateY(-2.5px);
+  -moz-transform: translateY(-2.5px);
+  -ms-transform: translateY(-2.5px);
+  -o-transform: translateY(-2.5px);
+  transform: translateY(-2.5px);
+}
+
+.contact__button:active,
+.contact__button:focus {
+  outline: none;
+  box-shadow: 0 0.2rem 0.2rem var(--color-primary-dark);
+  -webkit-transform: translateY(-1px);
+  -moz-transform: translateY(-1px);
+  -ms-transform: translateY(-1px);
+  -o-transform: translateY(-1px);
+  transform: translateY(-1px);
+}

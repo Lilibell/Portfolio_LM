@@ -1,5 +1,5 @@
 import React, { useState } from "react"
-import { Link } from "gatsby"
+import { Link } from "react-scroll"
 import * as styles from "./Navbar.module.css"
 
 const Navbar = () => {
@@ -41,7 +41,9 @@ const Navbar = () => {
       <ul className={getNavListClasses()}>
         <li className={styles.nav__listItem}>
           <Link
-            to="/"
+            to="a_home"
+            py={true}
+            smooth={true}
             className={styles.nav__link}
             activeClassName={styles.nav__linkActive}
           >
@@ -50,7 +52,9 @@ const Navbar = () => {
         </li>
         <li className={styles.nav__listItem}>
           <Link
-            to="/about"
+            to="a_about"
+            py={true}
+            smooth={true}
             className={styles.nav__link}
             activeClassName={styles.nav__linkActive}
           >
@@ -59,7 +63,9 @@ const Navbar = () => {
         </li>
         <li className={styles.nav__listItem}>
           <Link
-            to="/projects"
+            to="a_projects"
+            py={true}
+            smooth={true}
             className={styles.nav__link}
             activeClassName={styles.nav__linkActive}
           >
@@ -68,7 +74,9 @@ const Navbar = () => {
         </li>
         <li className={styles.nav__listItem}>
           <Link
-            to="/contact"
+            to="a_contact"
+            py={true}
+            smooth={true}
             className={styles.nav__link}
             activeClassName={styles.nav__linkActive}
           >
