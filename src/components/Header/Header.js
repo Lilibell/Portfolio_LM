@@ -15,17 +15,24 @@ const Header = () => {
       >
         <div className={styles.header__wrapper}>
           <StaticImage
-            src="../../images/limeis2osl.jpg"
+            src="../../images/limeis2nas.jpg"
             alt="photo Lisa Meister"
             className={styles.header__imageWrapper}
-            imgClassName={styles.header__image}
           />
-          <h1 className={styles.header__title}>Hello, I'm Lisa</h1>
-          <p className={styles.header__content}>
-            I'm a{" "}
-            <span className={styles.header__highlight}>Web Developer</span>{" "}
-            based in Dithmarschen, Germany.
-          </p>
+          <div className={styles.header__textWrapper}>
+            <h1 className={styles.header__title}>Hello, I'm Lisa</h1>
+            <ScrollAnimation
+              animateIn="animate__slideInRight"
+              animateOnce={true}
+              delay={2400}
+            >
+              <p className={styles.header__content}>
+                I'm a{" "}
+                <span className={styles.header__highlight}>Web Developer</span>{" "}
+                based in Dithmarschen, Germany.
+              </p>
+            </ScrollAnimation>
+          </div>
         </div>
       </ScrollAnimation>
       <BGWave

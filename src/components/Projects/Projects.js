@@ -39,9 +39,10 @@ const Projects = () => {
               target="_blank"
               rel="noreferrer"
               alt="Link to SanWiz homepage"
+              className={styles.about__link}
             >
               <StaticImage
-                src="../../images/SW-home.png"
+                src="../../images/SanWiz.png"
                 alt="SanWiz homepage"
                 className={styles.project__imageWrapper}
               />
@@ -68,6 +69,7 @@ const Projects = () => {
               target="_blank"
               rel="noreferrer"
               alt="Link to Hebamme Elena Popova homepage"
+              className={styles.about__link}
             >
               <StaticImage
                 src="../../images/hebamme-elena-popova.png"
@@ -98,6 +100,7 @@ const Projects = () => {
               target="_blank"
               rel="noreferrer"
               alt="Link to Todo List"
+              className={styles.about__link}
             >
               <StaticImage
                 src="../../images/todo-list-prev.png"

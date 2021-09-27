@@ -42,10 +42,9 @@ const Navbar = () => {
         <li className={styles.nav__listItem}>
           <Link
             to="a_home"
-            py={true}
-            smooth={true}
+            py="true"
+            smooth="true"
             className={styles.nav__link}
-            activeClassName={styles.nav__linkActive}
           >
             Home
           </Link>
@@ -53,10 +52,9 @@ const Navbar = () => {
         <li className={styles.nav__listItem}>
           <Link
             to="a_about"
-            py={true}
-            smooth={true}
+            py="true"
+            smooth="true"
             className={styles.nav__link}
-            activeClassName={styles.nav__linkActive}
           >
             About
           </Link>
@@ -64,10 +62,9 @@ const Navbar = () => {
         <li className={styles.nav__listItem}>
           <Link
             to="a_projects"
-            py={true}
-            smooth={true}
+            py="true"
+            smooth="true"
             className={styles.nav__link}
-            activeClassName={styles.nav__linkActive}
           >
             Projects
           </Link>
@@ -75,10 +72,9 @@ const Navbar = () => {
         <li className={styles.nav__listItem}>
           <Link
             to="a_contact"
-            py={true}
-            smooth={true}
+            py="true"
+            smooth="true"
             className={styles.nav__link}
-            activeClassName={styles.nav__linkActive}
           >
             Contact
           </Link>

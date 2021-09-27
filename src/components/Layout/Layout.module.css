@@ -13,7 +13,8 @@
   --fs-xl: 4rem;
   --fs-xxl: 5rem;
 
-  --border-radius: 1.8rem;
+  --box-shadow: 1px 3px 6px rgba(7, 35, 44, 0.4);
+  --border-radius: 1.6rem;
 }
 
 *,
@@ -39,4 +40,10 @@ h5,
 h6 {
   font-family: "Jost", sans-serif;
   font-weight: 500;
+}
+
+@media (min-width: 56.25em) {
+  :root {
+    --fs-l: 4rem;
+  }
 }

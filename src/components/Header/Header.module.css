@@ -29,9 +29,6 @@
 .header__image-wrapper {
   height: 15rem;
   width: 15rem;
-}
-
-.header__image {
   background-color: var(--color-primary-dark);
   border-radius: 50%;
   -webkit-border-radius: 50%;
@@ -41,14 +38,80 @@
 }
 
 .header__title {
+  width: 100%;
+  max-width: 25rem;
   font-size: var(--fs-l);
-  margin: 2rem 0;
+  text-align: center;
+  overflow: hidden;
+  border-right: 0.15em solid var(--color-secondary);
+  white-space: nowrap;
+  margin: 2rem auto;
+  animation: typing 3.5s steps(40, end), blink-caret 0.75s step-end infinite;
 }
 
 .header__content {
-  font-size: 2rem;
+  font-size: var(--fs-s);
 }
 
 .header__highlight {
   color: var(--color-secondary);
+}
+
+/* The typing effect */
+@keyframes typing {
+  from {
+    width: 0;
+  }
+  to {
+    width: 100%;
+  }
+}
+
+/* The typewriter cursor effect */
+@keyframes blink-caret {
+  from,
+  to {
+    border-color: transparent;
+  }
+  50% {
+    border-color: var(--color-secondary);
+  }
+}
+
+@media (min-width: 56.25em) {
+  .header__wrapper {
+    max-width: 100%;
+    background-color: unset;
+    flex-direction: row;
+    justify-content: center;
+  }
+
+  .header__image-wrapper {
+    width: 25rem;
+    height: auto;
+    margin-right: 6rem;
+    border-radius: var(--border-radius);
+    -webkit-border-radius: var(--border-radius);
+    -moz-border-radius: var(--border-radius);
+    -ms-border-radius: var(--border-radius);
+    -o-border-radius: var(--border-radius);
+    box-shadow: var(--box-shadow);
+  }
+
+  .header__title {
+    margin: 0 0 3rem 0;
+    padding: 0 1.5rem;
+    line-height: 6rem;
+    max-width: 30rem;
+    background-color: var(--bg-color-light);
+    text-align: left;
+  }
+
+  .header__content {
+    text-align: left;
+    padding: 0 1.5rem;
+    font-size: var(--fs-m);
+    line-height: 4rem;
+    background-color: var(--bg-color-light);
+  }
 }
