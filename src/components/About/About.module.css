@@ -32,7 +32,11 @@
 }
 
 .about__image-wrapper {
-  display: none;
+  display: none !important; /* Needs to be important atm to override .gatsby-image-wrapper-contrained, change asap*/
+}
+
+.about__image {
+  display: none !important; /* see above */
 }
 
 @media (min-width: 56.25em) {
@@ -46,8 +50,12 @@
   }
 
   .about__image-wrapper {
-    display: inline-block;
+    display: inline-block !important; /* see above */
     width: 40vw;
     max-width: 45rem;
+  }
+
+  .about__image {
+    display: inline-block !important; /* see above */
   }
 }

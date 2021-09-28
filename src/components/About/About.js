@@ -31,7 +31,7 @@ const About = () => {
             Bootcamp. And after completing this first course I knew one thing
             for certain:{" "}
             <span className={styles.about__highlight}>
-              I will be a Web Developer
+              I will be a web developer
             </span>
             .
           </p>
@@ -42,6 +42,7 @@ const About = () => {
           src="../../images/undraw_fixing_bugs_w7gi.svg"
           alt="woman with devices illustrations"
           className={styles.about__imageWrapper}
+          imgClassName={styles.about__image}
         />
       </ScrollAnimation>
     </section>

@@ -3,6 +3,7 @@ import axios from "axios"
 import * as styles from "./ContactForm.module.css"
 
 const ContactForm = () => {
+  const [messageSent, setMessageSent] = useState(false)
   const [serverState, setServerState] = useState({
     submitting: false,
     status: null,
@@ -14,7 +15,6 @@ const ContactForm = () => {
     })
     if (ok) {
       form.reset()
-      console.log(msg)
     }
   }
   const handleOnSubmit = e => {
@@ -27,6 +27,7 @@ const ContactForm = () => {
       data: new FormData(form),
     })
       .then(r => {
+        setMessageSent(true)
         handleServerResponse(true, "Thanks!", form)
       })
       .catch(r => {
@@ -75,6 +76,10 @@ const ContactForm = () => {
           required
         ></textarea>
       </div>
+
+      {messageSent && (
+        <p className={styles.contact__messageSent}>Message delivered!</p>
+      )}
 
       <div className={styles.contact__buttonWrapper}>
         <button type="submit" value="submit" className={styles.contact__button}>
