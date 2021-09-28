@@ -27,8 +27,8 @@ const Projects = () => {
                 SanWiz is a website made for (german) paramedics. It is a
                 collection of currently used emergency drugs and their most
                 important traits. It allows paramedics to learn and refresh
-                their pharmacy skills from anywhere, anytime. Fully responsive
-                and easy to navigate.
+                their pharmacy skills from anywhere, anytime. Mobile First,
+                Fully responsive and easy to navigate.
               </p>
               <p className={styles.project__tech}>
                 Built with: HTML5, CSS3, Sass, Next.js
@@ -58,7 +58,8 @@ const Projects = () => {
               <h3 className={styles.project__name}>Hebamme Elena Popova</h3>
               <hr />
               <p className={styles.project__description}>
-                Busisness website for a dedicated midwife with her own practice.
+                Busisness website for a dedicated midwife with her own practice
+                in Ostrohe. Fully responsive.
               </p>
               <p className={styles.project__tech}>
                 Built with: HTML5, CSS3, Sass, JavaScript
@@ -89,7 +90,7 @@ const Projects = () => {
               <hr />
               <p className={styles.project__description}>
                 A Todo List with the functionallities add, check, delete, drag &
-                drop, filter and change themes.
+                drop, filter and change themes. Challenge by Frontend Mentor.
               </p>
               <p className={styles.project__tech}>
                 Built with: HTML5, CSS3, JavaScript
