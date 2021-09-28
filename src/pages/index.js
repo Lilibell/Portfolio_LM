@@ -1,4 +1,5 @@
 import * as React from "react"
+import SEO from "../components/SEO/SEO"
 import Layout from "../components/Layout/Layout"
 import Header from "../components/Header/Header"
 import About from "../components/About/About"
@@ -8,6 +9,7 @@ import Contact from "../components/Contact/Contact"
 
 const IndexPage = () => (
   <Layout>
+    <SEO />
     <Header />
     <About />
     <Skills />
