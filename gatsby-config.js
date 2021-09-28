@@ -1,5 +1,6 @@
 module.exports = {
   siteMetadata: {
+    lang: "en",
     title: `Lisa Meister`,
     description: `Portfolio page of Lisa Meister, Web Developer Frontend Backend Fullstack`,
     author: `Lisa Meister`,

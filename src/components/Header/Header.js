@@ -22,13 +22,15 @@ const Header = () => {
           <div className={styles.header__textWrapper}>
             <h1 className={styles.header__title}>Hello, I'm Lisa</h1>
             <ScrollAnimation
-              animateIn="animate__slideInRight"
+              animateIn="animate__FadeIn"
               animateOnce={true}
               delay={2400}
             >
               <p className={styles.header__content}>
                 I'm a{" "}
-                <span className={styles.header__highlight}>Web Developer</span>{" "}
+                <span className={styles.header__highlight}>
+                  frontend developer
+                </span>{" "}
                 based in Dithmarschen, Germany.
               </p>
             </ScrollAnimation>
