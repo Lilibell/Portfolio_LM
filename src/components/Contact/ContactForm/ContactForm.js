@@ -3,11 +3,12 @@ import axios from "axios"
 import * as styles from "./ContactForm.module.css"
 
 const ContactForm = () => {
-  const [messageSent, setMessageSent] = useState(false)
+  const [messageSent, setMessageSent] = useState(false) // Message delivered show/hide
   const [serverState, setServerState] = useState({
     submitting: false,
     status: null,
   })
+
   const handleServerResponse = (ok, msg, form) => {
     setServerState({
       submitting: false,

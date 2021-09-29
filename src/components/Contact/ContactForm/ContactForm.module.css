@@ -1,9 +1,11 @@
 .contact__form {
+  min-height: 40rem;
   width: 100%;
   max-width: 60rem;
-  min-height: 40rem;
   margin-top: 1.5rem;
 }
+
+/* Label + input */
 
 .contact__form-group {
   display: block;
@@ -15,13 +17,13 @@
 }
 
 .contact__input {
-  width: 100%;
   display: block;
+  cursor: pointer;
+  width: 100%;
   margin-top: 0.5rem;
   padding: 1rem 1.5rem;
   border: 1px solid var(--color-primary-light);
   font-size: var(--fs-s);
-  cursor: pointer;
   background-color: var(--bg-color-light);
   border-radius: var(--border-radius);
   -webkit-border-radius: var(--border-radius);
@@ -36,20 +38,24 @@
   border: 1px solid var(--color-primary);
 }
 
+/* Success message */
+
 .contact__message-sent {
-  text-align: center;
   font-size: var(--fs-s);
+  text-align: center;
 }
 
+/* Button */
+
 .contact__button {
+  cursor: pointer;
+  margin-top: 1.5rem;
   padding: 1rem 1.5rem;
+  font-family: inherit;
   font-size: 2rem;
   background-color: var(--color-primary);
-  font-family: inherit;
   color: var(--color-primary-light);
   border: none;
-  margin-top: 1.5rem;
-  cursor: pointer;
   transition: all 0.2s;
   -webkit-transition: all 0.2s;
   -moz-transition: all 0.2s;

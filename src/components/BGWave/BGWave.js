@@ -1,6 +1,8 @@
 import React from "react"
 import * as styles from "./BGWave.module.css"
 
+// Wavy section transition, color change with props
+
 const BGWave = props => {
   let waveClass
 

@@ -12,9 +12,9 @@
 }
 
 .nav__logo {
-  color: var(--color-primary-dark);
-  font-size: var(--fs-xxl);
   font-family: "Berkshire Swash", sans-serif;
+  font-size: var(--fs-xxl);
+  color: var(--color-primary-dark);
   text-decoration: none;
   background-color: var(--bg-color-light);
   border-radius: 50%;
@@ -26,11 +26,11 @@
 
 .nav__toggler {
   cursor: pointer;
+  height: 4.5rem;
+  width: 4.5rem;
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 4.5rem;
-  width: 4.5rem;
   border: none;
   border-radius: 50%;
   -webkit-border-radius: 50%;
@@ -57,9 +57,9 @@
 
 .nav__toggler-icon {
   position: relative;
-  background-color: var(--color-primary-dark);
-  width: 2rem;
   height: 0.2rem;
+  width: 2rem;
+  background-color: var(--color-primary-dark);
   border-radius: 1px;
   -webkit-border-radius: 1px;
   -moz-border-radius: 1px;
@@ -67,12 +67,14 @@
   -o-border-radius: 1px;
 }
 
+/* Hamburger menu */
+
 .nav__toggler-icon::before,
 .nav__toggler-icon::after {
   content: "";
-  background-color: var(--color-primary-dark);
-  width: 2rem;
   height: 0.2rem;
+  width: 2rem;
+  background-color: var(--color-primary-dark);
   border-radius: 1px;
   -webkit-border-radius: 1px;
   -moz-border-radius: 1px;
@@ -119,6 +121,8 @@
   -o-transform: rotate(-135deg);
 }
 
+/* Link list */
+
 .nav__list {
   list-style: none;
   margin-top: 1.5rem;
@@ -160,6 +164,8 @@
   color: var(--color-secondary);
   border-bottom: 1px solid var(--color-secondary);
 }
+
+/* Nav List open/close animations */
 
 .nav__list-open li {
   display: block;
@@ -241,6 +247,7 @@
 }
 
 @media (min-width: 56.25em) {
+  /* Expand navigation, hide toggler */
   .nav {
     padding: 3rem;
     display: flex;

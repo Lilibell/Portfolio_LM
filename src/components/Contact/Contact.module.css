@@ -1,11 +1,11 @@
 .contact {
   width: 100%;
+  background-color: var(--color-primary-dark);
+  color: var(--color-primary-light);
   display: flex;
   flex-direction: column;
   justify-content: space-between;
   align-items: center;
-  background-color: var(--color-primary-dark);
-  color: var(--color-primary-light);
 }
 
 .contact__wrapper {
@@ -18,8 +18,8 @@
 }
 
 .contact__heading {
-  font-size: var(--fs-l);
   margin: 3rem 0 1.5rem 0;
+  font-size: var(--fs-l);
   text-align: center;
 }
 

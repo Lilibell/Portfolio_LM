@@ -5,6 +5,8 @@ import * as styles from "./Navbar.module.css"
 const Navbar = () => {
   const [isClicked, setIsClicked] = useState("")
 
+  // Open/close navigation, add active or closed class after first click only to prevent animation on page load
+
   const handleClick = () => {
     if (isClicked === "") {
       setIsClicked(true)

@@ -10,7 +10,6 @@
 
 .about__wrapper {
   width: calc(100% - 3rem);
-  max-width: 60rem;
   margin: 6rem auto;
   max-width: 50rem;
 }
@@ -36,12 +35,12 @@
 }
 
 .about__image {
-  display: none !important; /* see above */
+  display: none !important; /* See above */
 }
 
 @media (min-width: 56.25em) {
+  /* Move text content to left, show illustration */
   .about {
-    justify-content: center;
     padding: 3rem;
   }
 
@@ -50,12 +49,12 @@
   }
 
   .about__image-wrapper {
-    display: inline-block !important; /* see above */
+    display: inline-block !important; /* See above */
     width: 40vw;
     max-width: 45rem;
   }
 
   .about__image {
-    display: inline-block !important; /* see above */
+    display: inline-block !important; /* See above */
   }
 }

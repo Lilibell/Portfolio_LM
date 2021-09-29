@@ -76,6 +76,7 @@ h3 + hr {
 }
 
 @media (min-width: 56.25em) {
+  /* Expand project to right */
   .projects__wrapper {
     max-width: 100%;
   }
